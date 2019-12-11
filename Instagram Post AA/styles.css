@@ -1,0 +1,93 @@
+body {
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 600px;
+    height: 735px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: white;
+}
+
+div .icon {
+    display: inline-block;
+    width: 7%;
+    transform: translateY(-3px);
+}
+
+.icon .fa {
+    font-size: 32px;
+    padding-left: 15px;
+}
+
+.dots .fa {
+    font-size: 38px;
+    text-align: right;
+    padding-left: 40px;
+}
+
+div .name {
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    padding-top: 20px;
+    height: 52px;
+}
+
+span .title {
+    margin: 0;
+}
+
+div .name .subtitle {
+    margin: 0;
+}
+
+div .dots {
+    display: inline-block;
+    width: 3%;
+}
+
+.photo {
+    width: 100%;
+}
+
+.actions {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+div .likes  {
+    width: 5%;
+    display: inline-block;
+    font-size: 34px;
+    margin-left: 13px;
+}
+
+div .comments  {
+    width: 5%;
+    display: inline-block;
+    font-size: 34px;
+    margin-left: 13px;
+}
+
+div .shares {
+    width: 65%;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 13px;
+}
+
+div .saves {
+    width: 10%;
+    display: inline-block;
+    font-size: 34px;
+    text-align: right;
+}
+
+.caption, .liked {
+    padding-left: 13px;
+    padding-right: 13px;
+}
